@@ -1,0 +1,42 @@
+
+.spark-header.two-button-mobile {
+	position: relative;
+	.right-container{
+		display: none;
+		@include visible(desktop);
+		.widget:not(.widget_search){
+			@include hidden(tablets);
+			@include hidden(all-phones);
+			@include visible(desktop);
+		}
+	}
+	.mobile-btn {
+		@include fancytiles(3,3,3);
+		@include hidden(desktop);
+		position: relative;
+		a { display: inline-block;}
+		[class*="spark-icon-"]{
+				position: relative;
+				display:inline-block;
+				border: 1px dashed $primary-color;
+				width: 14vw;
+				height: 14vw;
+				margin: 5px 0; 
+		}
+
+		&.search{
+			text-align: right; 
+		}
+	}
+
+	.mobile-search {
+		position: absolute;
+		bottom: -3em;
+		right: 0px;
+		display: none;
+		text-align: center;
+		&.open {
+			display: block;
+		}
+	}
+}

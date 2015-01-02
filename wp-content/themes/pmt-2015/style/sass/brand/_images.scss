@@ -1,0 +1,5 @@
+@mixin sparkimage( $name, $width ){
+	background-image: url('style/images/#{$name}.png');
+	background-repeat: no-repeat;
+	background-size: $width auto;
+}

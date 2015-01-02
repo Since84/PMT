@@ -1,0 +1,8 @@
+
+<nav class="floating-nav spark-region">
+	<ul>
+		{% for item in nav.get_items %}
+		    <li class="nav-main-item"><a class="nav-main-link" href="{{item.get_path}}">{{item.title}}</a></li>
+		{% endfor %}
+	</ul>
+</nav>

@@ -1,0 +1,33 @@
+
+$maintext:  Helvetica, Arial, sans-serif;
+$scripttext: "bickham-script-pro";
+
+@mixin maintext{
+	color: $darkGray;
+	font-family: $maintext;
+}
+
+@mixin boldheader {
+	color: $red;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@mixin scripttext{
+	color: $red;
+	font-family: $scripttext;
+	font-size: 40px;
+}
+
+@mixin scriptheader{
+	@include scripttext;
+	font-size: 55px; 
+	text-align: center;
+}
+
+@mixin navtext {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.3vw;
+}

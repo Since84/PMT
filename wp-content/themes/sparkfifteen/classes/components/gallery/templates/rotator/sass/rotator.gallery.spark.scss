@@ -1,0 +1,69 @@
+/*
+	Rotator for Gallery 1.0 - Spark
+	Styles for Spark Rotator Gallery Component. 
+	Uses Gumby CSS Framework ( http://gumbyframework.com/ )
+*/
+
+$row-max-width: 1140px !default; // The max-width of your project
+$gutter-in-px: 20px !default; // This is the space between columns
+$cols: 12 !default; // The number of columns in your grid
+$hybrid: 16 !default; // Change this if you plan to mix grids
+
+$height: 40vw;
+$width: 100%;
+
+@import "../../../../../../style/sass/gumby/gumby";
+
+.spark-rotator{
+	display: block;
+	@include row();
+	width: 100%;
+	max-width: none;
+	overflow: hidden;
+
+	.pager{}
+
+	.window{
+		@include row();
+		float: none;
+
+		padding: 0;
+		white-space: nowrap;
+		margin: auto;
+		.slide-container{
+			width: $width;
+			height: $height;
+			max-width: $row-max-width;
+			position: relative;
+			display: block;
+		}
+	}
+
+	.spark-slide{
+		position: absolute;
+		display: block;
+		top:0;
+		bottom: 0;
+		// max-width: 1000px;
+		width: 100%;
+		max-width: $row-max-width;
+		height: $height;
+		overflow: hidden;
+	    -webkit-transition: height .5s, padding .5s, left .5s ease-in-out;
+	    -moz-transition: height .5s, padding .5s, left .5s ease-in-out;
+	    -o-transition: height .5s, padding .5s, left .5s ease-in-out;
+	    transition: height .5s, padding .5s, left .5s ease-in-out;
+	    margin: auto;
+
+	    &:not(.active){
+	    	height: $height - 8;
+	    }
+
+	    &.active{ left: 0; }
+	    &.next{ left: 90vw; }
+	    &.two-ahead{ left: 180vw; }
+	    &.prev{ left: -90vw; }
+	    &.two-behind{ left: -180vw;}
+	}
+
+}

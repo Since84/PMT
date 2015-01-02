@@ -1,0 +1,16 @@
+<header class="spark-header spark-region two-button-mobile">
+	<div class="mobile-btn mobile-menu"><a href="#sidr"><i class="menu-button spark-icon-menu"></i></a></div>
+	<div class="left-container spark-region"><a href="home"><img src="{{ logo }}"/></a></div>
+	<div class="right-container spark-region">
+		{{ header_right }}
+	</div>
+	<div class="mobile-btn search "><i class="search-button spark-icon-search"></i></div>
+</header>
+<nav class="full-width-nav spark-region">
+	<ul>
+		{% for item in nav.get_items %}
+		    <li class="nav-main-item"><a class="nav-main-link" href="{{item.get_path}}">{{item.title}}</a></li>
+		{% endfor %}
+	</ul>
+</nav>
+<div class="sidr"></div>

@@ -1,0 +1,61 @@
+/*
+	Header 1.0 - Spark
+	Styles for Spark Header Component. 
+	Uses Gumby CSS Framework ( http://gumbyframework.com/ )
+*/
+
+$row-max-width: 1140px !default; // The max-width of your project
+$gutter-in-px: 20px !default; // This is the space between columns
+$cols: 12 !default; // The number of columns in your grid
+$hybrid: 16 !default; // Change this if you plan to mix grids
+
+@import "../../../../../style/sass/gumby/gumby";
+
+.spark-header{
+	@include row();
+	.left-container{
+		@include fancytiles(6,7,3);
+		margin-left: 0;
+	}
+	.right-container{
+		@include column(3);
+		@include push(6.75);
+	}
+}
+
+
+/* Nav - TODO : move to own component */
+.full-width-nav {
+	clear:both;
+	display:none;
+	& > ul  {
+		@include row();
+		li {
+			@include column(1.33);
+			&:first-of-type{
+				@include push(1);
+			}
+			&:last-of-type{
+			}
+
+		}
+	}
+		@include visible(desktop);
+}
+
+.sidr {
+	background: none;
+	box-shadow: none;
+	border-right: 1px dashed $primary-color;
+	ul, ul li{
+		border-top: 0;
+		border-bottom: 1px dashed $primary-color;
+	}
+	table, td {
+		border: none;
+	}
+}
+
+
+
+/* Sub-Template */ @import "subtemplates/two-button-mobile";

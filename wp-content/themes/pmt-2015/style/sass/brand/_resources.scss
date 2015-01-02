@@ -1,0 +1,94 @@
+
+
+// Mixins
+@mixin biopreview{
+	.bio-left{
+		img{ float: left; margin-bottom: 5em; margin-right: 1em; border: 3px solid $red; }
+	}
+}
+
+@mixin pagecontent {
+
+	p {
+		font-size: 14px;
+	}
+
+	h3{
+		color: $red; 
+		font-weight: bold;	
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+
+	h4{
+		color: black; 
+		font-size: 14px;
+		font-weight: bold;
+	}
+	h5{
+		font-weight: bold;
+	}
+	h5, h6{
+		color: $red;
+		font-size: 12px;
+	}
+
+	//List Style
+	ul{
+		margin-top: 10px;
+		li{
+			list-style-type: disc;
+			list-style-position: outside;
+			margin-left: 20px;
+		}
+	}
+
+	.script-text{
+		@include scripttext;
+		margin-right: .25em;
+	}
+	.large-red{
+		font-weight: bold;
+		color: $red;
+	}
+
+	.red-circle {
+		position: relative;
+		display: block;
+		width: 170px;
+		height: 170px;
+		margin: auto;
+		margin-top: 4em;
+		background: $red;
+		color: white;
+		text-align: center;
+		padding: 50px 30px;
+		border-radius: 50%;
+		@include sparkRadialGradient($darkRed, $red);
+		.script-text{
+			color: white;
+			font-size: 40px;
+		}
+
+	}
+
+	.float-right{
+		float: right;
+		display: inline-block;
+		width: 40%;
+	}
+	@include biopreview;
+
+	@include respond("max-width: 767px"){
+		.feature-sidebar{
+			width: 36.67%;
+		}
+	}
+}
+
+@mixin inline-nav{
+	li{
+		display: inline-block;
+		padding: 5px;
+	}
+}

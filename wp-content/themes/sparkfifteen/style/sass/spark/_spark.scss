@@ -1,0 +1,54 @@
+
+//Icons 
+$search: "\e622";
+$menu: "\e68c";
+
+@mixin icon($name){
+	&:before{
+		content: $name;
+		position: absolute;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 2.5em;
+		line-height: 2em;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		width: 1em;
+		height: 1em;
+		line-height: 1.3em;
+	}
+}
+
+#wpadminbar{
+	@include respond("max-width: 600px"){
+		position:fixed;
+	}
+}
+
+.spark-region {
+
+	.field {
+		margin-bottom: 0;
+		&.append {
+			input, .btn {
+				vertical-align: middle;
+			}
+			
+		}
+	}
+
+}
+
+[class*="spark-icon-"]{
+	font-family: "#{$icons}";
+}
+.spark-icon-search {
+	@include icon($search);
+}
+
+.spark-icon-menu {
+	@include icon($menu);
+}

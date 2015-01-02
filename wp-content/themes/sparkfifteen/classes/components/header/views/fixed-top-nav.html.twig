@@ -1,0 +1,15 @@
+<header class="spark-header spark-region fixed-top-nav">
+	<div class="mobile-btn mobile-menu"><a href="#sidr"><i class="menu-button spark-icon-menu"></i></a></div>
+	<div class="left-container spark-region"><a href="home"><img src="{{ logo }}"/></a></div>
+	<div class="right-container spark-region">
+		<nav>
+			<ul>
+				{% for item in nav.get_items %}
+				    <li class="nav-main-item"><a class="nav-main-link" href="{{item.get_path}}">{{item.title}}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<div class="sidr"></div>

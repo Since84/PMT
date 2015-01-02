@@ -1,0 +1,14 @@
+{% extends '/views/templates/base.html.twig' %}
+
+{% block header %}
+	{{ header }}
+{% endblock %}
+
+{% block main_content %}
+<div class="spark-region feature-content">
+	{{ feature_sidebar }}
+	{{ feature }}
+	{{ sidebar }}
+	{{ content }}
+</div>
+{% endblock %}
