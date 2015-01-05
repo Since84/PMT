@@ -6429,7 +6429,7 @@ body.spark-theme {
   margin-right: 1em;
   border: 3px solid #860038;
 }
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   #main-content .feature-sidebar {
     width: 36.67%;
   }
@@ -6601,7 +6601,7 @@ body.spark-theme {
   margin-right: 1em;
   border: 3px solid #860038;
 }
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .feature-sidebar .feature-sidebar {
     width: 36.67%;
   }

@@ -96,7 +96,7 @@
 
 	@include biopreview;
 
-	@include respond("max-width: 767px"){
+	@media screen and ("max-width: 767px"){
 		.feature-sidebar{
 			width: 36.67%;
 		}
