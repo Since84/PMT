@@ -1,11 +1,11 @@
 
-$maintext:  Helvetica, Arial, sans-serif;
+$text:  Helvetica, Arial, sans-serif;
 $scripttext: "bickham-script-pro";
 
 @mixin maintext{
 	color: $darkGray;
-	font-family: $maintext;
-}
+	font-family: $text; 
+} 
 
 @mixin boldheader {
 	color: $red;
@@ -19,6 +19,11 @@ $scripttext: "bickham-script-pro";
 	font-size: 40px;
 }
 
+@mixin greyscripttext {
+	@include scripttext;
+	color: $darkGray;
+}
+
 @mixin scriptheader{
 	@include scripttext;
 	font-size: 55px; 
@@ -29,5 +34,11 @@ $scripttext: "bickham-script-pro";
 	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 1.3vw;
+	font-size: 16px;
+}
+
+@mixin columns( $count ) {
+	-webkit-columns: 	$count;
+   -moz-columns: 		$count;
+        columns:	 	$count;
 }

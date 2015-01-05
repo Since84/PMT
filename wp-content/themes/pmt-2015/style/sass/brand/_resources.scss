@@ -3,15 +3,13 @@
 // Mixins
 @mixin biopreview{
 	.bio-left{
-		img{ float: left; margin-bottom: 5em; margin-right: 1em; border: 3px solid $red; }
+		img{ float: left; margin-bottom: 10em; margin-right: 1em; border: 3px solid $red; }
 	}
 }
 
 @mixin pagecontent {
-
-	p {
-		font-size: 14px;
-	}
+	@include maintext;
+	font-size: 14px;
 
 	h3{
 		color: $red; 
@@ -47,6 +45,10 @@
 		@include scripttext;
 		margin-right: .25em;
 	}
+	.gray-script-text{
+		@include scripttext;
+		color: $darkGray;
+	}
 	.large-red{
 		font-weight: bold;
 		color: $red;
@@ -77,6 +79,21 @@
 		display: inline-block;
 		width: 40%;
 	}
+
+	.testimonial {
+		em { color: $red; }
+	}
+
+	#accept_paypal_payment_form {
+		@include maintext;
+		br { display: none;}
+		input, select, strong { 
+			display: block; 
+			clear: both;
+			margin-bottom: 5px;
+		}
+	}
+
 	@include biopreview;
 
 	@include respond("max-width: 767px"){
@@ -91,4 +108,10 @@
 		display: inline-block;
 		padding: 5px;
 	}
+}
+
+@mixin columns( $count ) {
+	-webkit-columns: 	$count;
+   -moz-columns: 		$count;
+        columns:	 	$count;
 }

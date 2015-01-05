@@ -9,7 +9,7 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  spark-fifteen-child
 */
-$row-max-width: 1100px !default; // The max-width of your project
+$row-max-width: 1140px !default; // The max-width of your project
 $gutter-in-px: 0px !default; // This is the space between columns
 $cols: 12 !default; // The number of columns in your grid
 $hybrid: 16 !default; // Change this if you plan to mix grids
@@ -20,7 +20,7 @@ $hybrid: 16 !default; // Change this if you plan to mix grids
 
 //Type
 body.spark-theme{
-	font-family: $maintext;
+	font-family: $text;
 	@include sparkGradient($darkTan, $lightTan);
 }
 
@@ -28,6 +28,7 @@ body.spark-theme{
 .floating-nav{
 	@include row();
 	@include sparkimage("top_border", 100%);
+	width: 1140px!important;
 	background-position-y: 100%; 
 	margin-top: 10px;
 	padding-top: 25px;
@@ -50,6 +51,7 @@ body.spark-theme{
 #main-content{
 	@include row();
 	@include pagecontent();
+	width: 1140px !Important;
 	margin: auto;
 	border: solid $red;
 	border-width: 0px .65vw .65vw;
@@ -109,9 +111,9 @@ body.spark-theme{
 		background-position-y: 100%;
 		z-index: 10;
 		padding: 25px 40px;
-		padding-top: 18vw;
+		padding-top: 250px;
 		position: absolute;
-		height: 99%;
+		height: 99%; 
 		display: block;
 		@include sparkimage("sidebar_background_image", 100%);
 		@include box-shadow($darkGray 4px 1px 30px);
@@ -121,7 +123,7 @@ body.spark-theme{
 			content:"";
 			display:block;
 			position: absolute;
-			top: -5.6vw;
+			top: -65px;
 			left: 0;
 			right: 0;
 			margin: auto;
@@ -140,6 +142,8 @@ body.spark-theme{
 		min-height: 50vw;
 		background-color: $superLight;
 		background-position-y: 0%;
+		background-position-x: 100%;
+		background-size: 63%;
 		padding: 0 75px;
 		padding-left: 37%;
 
@@ -164,6 +168,10 @@ body.spark-theme{
 			-ms-transform: rotate(90deg);
 			-o-transform: rotate(90deg);
 			transform: rotate(90deg);
+		}
+
+		.two-column-list > ul {
+			@include columns(2);
 		}
 
 		@include sparkimage("main_background_image", 100%);	

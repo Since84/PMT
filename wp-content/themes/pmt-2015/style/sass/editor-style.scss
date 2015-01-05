@@ -1,0 +1,13 @@
+
+$row-max-width: 1140px !default; // The max-width of your project
+$gutter-in-px: 0px !default; // This is the space between columns
+$cols: 12 !default; // The number of columns in your grid
+$hybrid: 16 !default; // Change this if you plan to mix grids
+
+@import "gumby/gumby";
+@import "spark/sparkframe";
+@import "brand/brand";
+
+.content {
+	@include pagecontent;
+}

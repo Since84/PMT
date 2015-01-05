@@ -16,6 +16,13 @@ function my_mce_before_init_insert_formats( $init_array ) {
 			
 		),
 		array(  
+			'title' => 'Gray Script Text',  
+			'inline' => 'span',  
+			'classes' => 'gray-script-text',
+			'wrapper' => false,
+			
+		),
+		array(  
 			'title' => 'Large Red',  
 			'inline' => 'span',  
 			'classes' => 'large-red',
@@ -47,6 +54,20 @@ function my_mce_before_init_insert_formats( $init_array ) {
 			'title' => 'About Bio',  
 			'block' => 'div',  
 			'classes' => 'bio-left',
+			'wrapper' => true,
+			
+		),
+		array(  
+			'title' => 'Two Column List',  
+			'block' => 'div',  
+			'classes' => 'two-column-list',
+			'wrapper' => true,
+			
+		),
+		array(  
+			'title' => 'Testimonial',  
+			'block' => 'div',  
+			'classes' => 'testimonial',
 			'wrapper' => true,
 			
 		)
