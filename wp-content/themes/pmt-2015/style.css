@@ -6303,9 +6303,10 @@ body.spark-theme {
 }
 .floating-nav ul li a {
   color: white;
+  font-family: "jaf-facitweb";
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 19px;
 }
 
 #main-content {
@@ -6487,7 +6488,7 @@ body.spark-theme {
   background-position-y: 100%;
   z-index: 10;
   padding: 25px 40px;
-  padding-top: 250px;
+  padding-top: 100px;
   position: absolute;
   height: 99%;
   display: block;
@@ -6606,6 +6607,9 @@ body.spark-theme {
     width: 36.67%;
   }
 }
+#main-content .feature-sidebar h3 {
+  font-size: 20px;
+}
 .feature-sidebar:before {
   content: "";
   display: block;
@@ -6629,7 +6633,7 @@ body.spark-theme {
 
 .page-content {
   width: 100%;
-  min-height: 50vw;
+  min-height: 710px;
   background-color: #f1eee2;
   background-position-y: 0%;
   background-position-x: 100%;
@@ -6685,9 +6689,10 @@ body.spark-theme {
   display: inline-block;
   padding: 5px;
 }
-.footer a {
+.footer a, .footer .copyright {
   color: #363636;
-  font-size: 12px;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 .footer .footer-main > * {
   display: inline-block;
