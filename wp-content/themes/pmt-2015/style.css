@@ -6610,6 +6610,11 @@ body.spark-theme {
 #main-content .feature-sidebar h3 {
   font-size: 20px;
 }
+#main-content .feature-sidebar em {
+  color: #9f8360;
+  display: block;
+  margin-top: 1em;
+}
 .feature-sidebar:before {
   content: "";
   display: block;
@@ -6693,6 +6698,9 @@ body.spark-theme {
   color: #363636;
   font-size: 10px;
   text-transform: uppercase;
+}
+.footer li:not(:last-child) a::after {
+  content: "|";
 }
 .footer .footer-main > * {
   display: inline-block;

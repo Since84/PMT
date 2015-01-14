@@ -121,6 +121,7 @@ body.spark-theme{
 
 		#main-content & {
 			h3 { font-size: 20px; }
+			em { color: #9f8360; display: block; margin-top: 1em; } 
 		}
 
 		&:before{
@@ -192,6 +193,12 @@ body.spark-theme{
 			color: $darkGray;
 			font-size: 10px;
 			text-transform: uppercase;
+		}
+		li:not(:last-child) a {
+			&::after{
+				content: "|";
+
+			}
 		}
 		.footer-main{
 			& > * {
