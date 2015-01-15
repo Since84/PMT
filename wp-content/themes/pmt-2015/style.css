@@ -6694,9 +6694,8 @@ body.spark-theme {
   font-weight: normal;
 }
 .page-content table tbody tr td {
-  font-family: "Open Sans";
-  font-size: 1rem;
-  color: black;
+  color: #363636;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .page-content b {
   font-weight: bold;
