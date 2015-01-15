@@ -6693,6 +6693,9 @@ body.spark-theme {
 .page-content table td:first-child {
   font-weight: normal;
 }
+.page-content table tbody tr td {
+  font-size: 12px;
+}
 .page-content b {
   font-weight: bold;
 }
