@@ -6683,6 +6683,13 @@ body.spark-theme {
   -moz-columns: 2;
   columns: 2;
 }
+.page-content table {
+  background: none;
+  border: none;
+}
+.page-content table td {
+  border: none;
+}
 
 .footer {
   max-width: 1140px;

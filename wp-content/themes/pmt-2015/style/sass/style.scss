@@ -179,6 +179,12 @@ body.spark-theme{
 			@include columns(2);
 		}
 
+		table {
+			background: none;
+			border: none;
+			td { border: none; }
+		}
+
 		@include sparkimage("main_background_image", 100%);	
 	}
 
