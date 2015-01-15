@@ -182,8 +182,16 @@ body.spark-theme{
 		table {
 			background: none;
 			border: none;
-			td { border: none; }
+			td { 
+				border: none; 
+				&:first-child {
+					font-weight: normal;
+				}
+			}
+
 		}
+
+		b { font-weight: bold; }
 
 		@include sparkimage("main_background_image", 100%);	
 	}

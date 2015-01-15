@@ -6690,6 +6690,12 @@ body.spark-theme {
 .page-content table td {
   border: none;
 }
+.page-content table td:first-child {
+  font-weight: normal;
+}
+.page-content b {
+  font-weight: bold;
+}
 
 .footer {
   max-width: 1140px;
