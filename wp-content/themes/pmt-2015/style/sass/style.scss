@@ -197,6 +197,7 @@ body.spark-theme{
 		li:not(:last-child) a {
 			&::after{
 				content: "|";
+				margin-left: 1em;
 
 			}
 		}

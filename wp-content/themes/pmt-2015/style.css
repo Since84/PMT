@@ -6701,6 +6701,7 @@ body.spark-theme {
 }
 .footer li:not(:last-child) a::after {
   content: "|";
+  margin-left: 1em;
 }
 .footer .footer-main > * {
   display: inline-block;
