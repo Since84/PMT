@@ -6246,6 +6246,12 @@ body.spark-theme {
   background-attachment: fixed;
 }
 
+p {
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+
 .floating-nav {
   width: 100%;
   max-width: 1180px;
@@ -6300,13 +6306,14 @@ body.spark-theme {
 .floating-nav ul li {
   display: inline-block;
   padding: 5px;
+  margin-right: .25em;
 }
 .floating-nav ul li a {
   color: white;
-  font-family: "jaf-facitweb";
+  font-family: "open-sans-condensed";
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 #main-content {
@@ -6319,6 +6326,9 @@ body.spark-theme {
   color: #363636;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
+  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 1.5em;
   width: 1140px !Important;
   margin: auto;
   border: solid #860038;
@@ -6337,11 +6347,21 @@ body.spark-theme {
     margin-right: 0;
   }
 }
+#main-content p {
+  margin-bottom: 1em;
+}
+#main-content h1 {
+  margin: 1em 0;
+}
+#main-content h2 {
+  margin-bottom: 1em;
+}
 #main-content h3 {
   color: #860038;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 1em;
 }
 #main-content h4 {
   color: black;
@@ -6412,9 +6432,30 @@ body.spark-theme {
 #main-content .testimonial em {
   color: #860038;
 }
+#main-content .bio-left {
+  clear: both;
+}
+#main-content .accordion {
+  margin-bottom: 1em;
+}
+#main-content .accordion .panel-title {
+  margin-bottom: 0;
+  line-height: 1em;
+}
+#main-content .accordion .panel-title a.active, #main-content .accordion .panel-title a:hover {
+  color: #860038;
+}
+#main-content .accordion .panel-content {
+  margin-top: 1em;
+}
+#main-content .accordion br {
+  display: none;
+}
 #main-content #accept_paypal_payment_form {
   color: #363636;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
 }
 #main-content #accept_paypal_payment_form br {
   display: none;
@@ -6501,6 +6542,9 @@ body.spark-theme {
   color: #363636;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
+  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 1.5em;
 }
 @media only screen and (max-width: 767px) {
   .feature-sidebar {
@@ -6509,11 +6553,21 @@ body.spark-theme {
     width: 100%;
   }
 }
+.feature-sidebar p {
+  margin-bottom: 1em;
+}
+.feature-sidebar h1 {
+  margin: 1em 0;
+}
+.feature-sidebar h2 {
+  margin-bottom: 1em;
+}
 .feature-sidebar h3 {
   color: #860038;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 1em;
 }
 .feature-sidebar h4 {
   color: black;
@@ -6584,9 +6638,30 @@ body.spark-theme {
 .feature-sidebar .testimonial em {
   color: #860038;
 }
+.feature-sidebar .bio-left {
+  clear: both;
+}
+.feature-sidebar .accordion {
+  margin-bottom: 1em;
+}
+.feature-sidebar .accordion .panel-title {
+  margin-bottom: 0;
+  line-height: 1em;
+}
+.feature-sidebar .accordion .panel-title a.active, .feature-sidebar .accordion .panel-title a:hover {
+  color: #860038;
+}
+.feature-sidebar .accordion .panel-content {
+  margin-top: 1em;
+}
+.feature-sidebar .accordion br {
+  display: none;
+}
 .feature-sidebar #accept_paypal_payment_form {
   color: #363636;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
 }
 .feature-sidebar #accept_paypal_payment_form br {
   display: none;
@@ -6696,6 +6771,9 @@ body.spark-theme {
 .page-content table tbody tr td {
   color: #363636;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: "Open Sans";
 }
 .page-content b {
   font-weight: bold;
@@ -6710,6 +6788,7 @@ body.spark-theme {
 .footer li {
   display: inline-block;
   padding: 5px;
+  margin-right: .25em;
 }
 .footer a, .footer .copyright {
   color: #363636;

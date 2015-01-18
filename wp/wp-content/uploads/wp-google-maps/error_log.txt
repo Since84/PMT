@@ -1,0 +1,2 @@
+Error log created
+2014-12-31 22:48:23: Could not save XML file -> Could not save marker XML file (/Users/dynamite/Work/PMT/wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1

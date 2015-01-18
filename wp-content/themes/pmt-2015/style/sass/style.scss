@@ -24,6 +24,12 @@ body.spark-theme{
 	@include sparkGradient($darkTan, $lightTan);
 }
 
+p {
+	font-size: 14px; 
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5em; 
+}
+
 //Nav
 .floating-nav{
 	@include row();
@@ -188,7 +194,7 @@ body.spark-theme{
 					font-weight: normal;
 				}
 			}
-			tbody tr td { @include maintext; }
+			tbody tr td { @include maintext; font-family: "Open Sans"; }
 
 		}
 

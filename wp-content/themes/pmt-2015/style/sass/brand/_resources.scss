@@ -10,12 +10,26 @@
 @mixin pagecontent {
 	@include maintext;
 	font-size: 14px;
+	line-height: 1.5em;
+
+	p{
+		margin-bottom: 1em;
+	}
+
+	h1 {
+		margin: 1em 0;
+	}
+
+	h2 {
+		margin-bottom: 1em;
+	}
 
 	h3{
 		color: $red; 
 		font-weight: bold;	
 		font-size: 14px;
 		text-transform: uppercase;
+		margin-bottom: 1em;
 	}
 
 	h4{
@@ -84,6 +98,23 @@
 		em { color: $red; }
 	}
 
+	.bio-left {
+		clear: both;
+	}
+
+	.accordion {
+		margin-bottom: 1em;
+		.panel-title { 
+			margin-bottom: 0; 
+			line-height: 1em;
+			a.active, a:hover{
+				color: $red;
+			}
+		}
+		.panel-content { margin-top: 1em; }
+		br { display: none; }
+	}
+
 	#accept_paypal_payment_form {
 		@include maintext;
 		br { display: none;}
@@ -107,6 +138,7 @@
 	li{
 		display: inline-block;
 		padding: 5px;
+		margin-right: .25em;
 	}
 }
 

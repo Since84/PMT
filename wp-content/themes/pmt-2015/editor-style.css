@@ -2,12 +2,25 @@
   color: #363636;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
+  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.content p {
+  margin-bottom: 1em;
+}
+.content h1 {
+  margin: 1em 0;
+}
+.content h2 {
+  margin-bottom: 1em;
 }
 .content h3 {
   color: #860038;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 1em;
 }
 .content h4 {
   color: black;
@@ -78,9 +91,30 @@
 .content .testimonial em {
   color: #860038;
 }
+.content .bio-left {
+  clear: both;
+}
+.content .accordion {
+  margin-bottom: 1em;
+}
+.content .accordion .panel-title {
+  margin-bottom: 0;
+  line-height: 1em;
+}
+.content .accordion .panel-title a.active, .content .accordion .panel-title a:hover {
+  color: #860038;
+}
+.content .accordion .panel-content {
+  margin-top: 1em;
+}
+.content .accordion br {
+  display: none;
+}
 .content #accept_paypal_payment_form {
   color: #363636;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
 }
 .content #accept_paypal_payment_form br {
   display: none;

@@ -5,6 +5,8 @@ $scripttext: "bickham-script-pro";
 @mixin maintext{
 	color: $darkGray;
 	font-family: $text; 
+	font-size: 14px; 
+	line-height: 1.5em; 
 } 
 
 @mixin boldheader {
@@ -32,10 +34,10 @@ $scripttext: "bickham-script-pro";
 
 @mixin navtext {
 	color: white;
-	font-family: "jaf-facitweb";
+	font-family: "open-sans-condensed";
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 19px;
+	font-size: 20px;
 }
 
 @mixin columns( $count ) {
