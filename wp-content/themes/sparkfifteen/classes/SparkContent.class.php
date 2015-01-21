@@ -105,8 +105,38 @@
 				$newContext );
 		}
 
+		/*******************
+		
+		Resource Functions
+		
+		********************/
+
+		/** FUNCTION processPosts
+		  * processes data from posts into viewable content
+		  * RETURN posts object
+		**/
+		public static function processPosts($posts) {
+			
+			if ( is_array($posts) ){
+
+				foreach( $posts as $key => $post ) {
+					$posts[$key]->post_date 	= get_the_date( "m.d.Y", $post->ID );
+					$posts[$key]->post_subtitle = get_post_meta( $post->ID, 'subtitle', true );
+					$posts[$key]->post_content 	= do_shortcode( apply_filters('the_content', $posts[$key]->post_content) );
+				}
+
+			} else {
+					// var_dump($posts->post_content);
+					$posts->post_date 	= get_the_date( "m.d.Y", $posts->post_date );
+					$posts->post_subtitle = get_post_meta( $posts->ID, 'subtitle', true );
+					$posts->post_content 	= do_shortcode( apply_filters('the_content', $posts->post_content) );				
+			}
+
+			return $posts;
+
+		}
+
+
+
+
 	}
-
-
-
-

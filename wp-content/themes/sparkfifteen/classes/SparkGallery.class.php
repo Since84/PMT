@@ -7,7 +7,7 @@
 
 	class SparkGallery {
 		private static $spark_options = array(
-			'template'	=>	'rotator'
+			'template'	=>	'pmt'
 			,'type'		=>	'shortcode'
 			,'context'	=>	null
 		);
@@ -45,8 +45,8 @@
 			wp_enqueue_script( 'gallery-script', get_template_directory_uri().'/classes/components/gallery/gallery.spark.js', array('jquery', 'backbone'),'',true );
 			wp_enqueue_style( 'gallery-style', get_template_directory_uri().'/classes/components/gallery/gallery.spark.css' );
 
-			wp_enqueue_script( 'gallery-template-script', get_template_directory_uri().'/classes/components/gallery/templates/'.$template.'/'.$template.'.gallery.spark.js', array('jquery', 'backbone'),'',true );
-			wp_enqueue_style( 'gallery-template-script', get_template_directory_uri().'/classes/components/gallery/templates/'.$template.'/'.$template.'.gallery.spark.css');
+			wp_enqueue_script( 'gallery-template-script', get_stylesheet_directory_uri().'/classes/components/gallery/templates/'.$template.'/'.$template.'.gallery.spark.js', array('jquery', 'backbone'),'',true );
+			wp_enqueue_style( 'gallery-template-script', get_stylesheet_directory_uri().'/classes/components/gallery/templates/'.$template.'/'.$template.'.gallery.spark.css');
 		}
 
 		/** FUNCTION getOptions

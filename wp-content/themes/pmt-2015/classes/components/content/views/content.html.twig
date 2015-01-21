@@ -1,0 +1,8 @@
+{# Basic Spark Content Block #}
+
+<div class="rmh-content">
+	{% if content.post_title != 'Feature' %}
+		<h1>{{ content.post_title }}</h1>
+	{% endif %}
+	{{ content.post_content }}
+</div>

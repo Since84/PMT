@@ -36,7 +36,7 @@ p {
 	@include sparkimage("top_border", 100%);
 	width: 1140px!important;
 	background-position-y: 100%; 
-	margin-top: 10px;
+	margin-top: 40px;
 	padding-top: 25px;
 	height: 70px;
 
@@ -73,7 +73,7 @@ p {
 
 	.page-content & {
 		padding: 40px 0px 40px 60px;
-		min-height: 710px; 
+		min-height: 750px; 
 
 		&:before, &:after{
 			content: "";
@@ -140,11 +140,17 @@ p {
 			margin: auto;
 			width: 100%;
 			height: 70%;
+			z-index: -1;
 			@include sparkimage("logo", 90%);
-			background-position-x: 50%;
+			background-position: top center;
 			@include respond("min-width: #{$row-max-width}"){
 				top: -66px;
 			}
+		}
+
+		.red-circle {
+			padding: 10px;
+			margin-top:1.5em;
 		}
 
 	}

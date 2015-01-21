@@ -6232,6 +6232,33 @@ table.rounded > tbody:first-child tr:first-child td {
   border: none;
 }
 
+/* PMT Gallery */
+.spark-rotator .window .slide-container {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+.spark-rotator .window .pmt-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transition: left .5s, right .5s;
+  display: block;
+  text-align: center;
+  margin-left: 0;
+}
+.spark-rotator .window .pmt-slide.next {
+  left: 100%;
+}
+.spark-rotator .window .pmt-slide.prev {
+  right: 100%;
+}
+
 body.spark-theme {
   font-family: Helvetica, Arial, sans-serif;
   background-color: #b2a07c;
@@ -6264,7 +6291,7 @@ p {
   background-size: 100% auto;
   width: 1140px !important;
   background-position-y: 100%;
-  margin-top: 10px;
+  margin-top: 40px;
   padding-top: 25px;
   height: 70px;
 }
@@ -6405,7 +6432,7 @@ p {
   width: 170px;
   height: 170px;
   margin: auto;
-  margin-top: 4em;
+  margin-top: 1em;
   background: #860038;
   color: white;
   text-align: center;
@@ -6423,6 +6450,9 @@ p {
 #main-content .red-circle .script-text {
   color: white;
   font-size: 40px;
+}
+#main-content .red-circle a {
+  color: white;
 }
 #main-content .float-right {
   float: right;
@@ -6489,7 +6519,7 @@ p {
 }
 .page-content .spark-content {
   padding: 40px 0px 40px 60px;
-  min-height: 710px;
+  min-height: 750px;
 }
 .page-content .spark-content:before, .page-content .spark-content:after {
   content: "";
@@ -6611,7 +6641,7 @@ p {
   width: 170px;
   height: 170px;
   margin: auto;
-  margin-top: 4em;
+  margin-top: 1em;
   background: #860038;
   color: white;
   text-align: center;
@@ -6629,6 +6659,9 @@ p {
 .feature-sidebar .red-circle .script-text {
   color: white;
   font-size: 40px;
+}
+.feature-sidebar .red-circle a {
+  color: white;
 }
 .feature-sidebar .float-right {
   float: right;
@@ -6700,15 +6733,20 @@ p {
   margin: auto;
   width: 100%;
   height: 70%;
+  z-index: -1;
   background-image: url("style/images/logo.png");
   background-repeat: no-repeat;
   background-size: 90% auto;
-  background-position-x: 50%;
+  background-position: top center;
 }
 @media only screen and (min-width: 1140px) {
   .feature-sidebar:before {
     top: -66px;
   }
+}
+.feature-sidebar .red-circle {
+  padding: 10px;
+  margin-top: 1.5em;
 }
 
 .page-content {

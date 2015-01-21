@@ -33,6 +33,7 @@ $context['header'] = $sparkHeader::getView();
 
 //Sidebar
 $sidebarPost = new TimberPost('feature');
+$sidebarPost = $sparkContent::processPosts($sidebarPost);
 $sidebarContext = Timber::get_context();
 $sidebarContext['content'] = $sidebarPost;
 $context['sidebar'] = $sparkContent::getView($sidebarContext,'content');

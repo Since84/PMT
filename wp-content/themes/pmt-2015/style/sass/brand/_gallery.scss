@@ -1,0 +1,34 @@
+/* PMT Gallery */ 
+
+
+.spark-rotator {
+	.window {
+		.slide-container{
+			height: 200px;
+			width: 200px;
+			overflow: hidden;
+			position: relative;
+			display: block;
+		}
+		.pmt-slide{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			bottom:0;
+			margin: auto;
+			transition: left .5s, right .5s;
+			display: block;
+			text-align: center;
+			margin-left: 0;
+
+			&.active {}
+			&.next {
+				left: 100%;
+			}
+			&.prev {
+				right: 100%;
+			}
+		}
+	}
+}
