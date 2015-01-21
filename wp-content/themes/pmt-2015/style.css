@@ -6526,7 +6526,7 @@ p {
 .feature-sidebar {
   width: 36.66667%;
   background-color: white;
-  background-position-y: 100%;
+  background-position: 0 100%;
   z-index: 10;
   padding: 25px 40px;
   padding-top: 100px;
