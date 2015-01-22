@@ -80,6 +80,7 @@ p {
 	.page-content .spark-content {
 		padding: 40px 0px 40px 60px;
 		min-height: 750px; 
+		display: inline-block;
 
 		&:before, &:after{
 			content: "";

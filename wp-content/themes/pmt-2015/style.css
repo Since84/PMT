@@ -6522,6 +6522,7 @@ p {
 #main-content .page-content .spark-content {
   padding: 40px 0px 40px 60px;
   min-height: 750px;
+  display: inline-block;
 }
 #main-content .page-content .spark-content:before, #main-content .page-content .spark-content:after {
   content: "";
