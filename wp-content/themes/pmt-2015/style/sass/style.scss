@@ -166,7 +166,7 @@ p {
 	}
 	.page-content {
 		@include column(12);
-		min-height: 760px;
+		min-height: 860px;
 		background-color: $superLight;
 		background-position-y: 0%;
 		background-position-x: 100%;
