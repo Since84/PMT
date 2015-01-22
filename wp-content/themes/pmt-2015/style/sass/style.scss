@@ -145,7 +145,7 @@ p {
 			@include sparkimage("logo", 90%);
 			background-position: top center;
 			@include respond("min-width: #{$row-max-width}"){
-				top: -66px;
+				top: -66px; 
 			}
 		}
 

@@ -3,7 +3,7 @@
 // Mixins
 @mixin biopreview{
 	.bio-left{
-		img{ float: left; margin-bottom: 10em; margin-right: 1em; border: 3px solid $red; }
+		img{ float: left; margin-bottom: 21em; margin-right: 1em; border: 3px solid $red; }
 	}
 }
 
@@ -29,7 +29,7 @@
 		font-weight: bold;	
 		font-size: 14px;
 		text-transform: uppercase;
-		margin-bottom: 1em;
+		margin-bottom: 1em; 
 	}
 
 	h4{
