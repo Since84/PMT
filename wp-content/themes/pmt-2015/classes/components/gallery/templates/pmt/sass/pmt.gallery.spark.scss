@@ -50,6 +50,7 @@ $width: 100%;
 		overflow: hidden;
 		opacity: 0;
 		transition: opacity 1s;
+		margin-left: 0 !important;
 
 	    &.active{ opacity: 1; }
 
