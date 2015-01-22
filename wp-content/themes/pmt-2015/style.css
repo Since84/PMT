@@ -3079,7 +3079,7 @@ p { font-size: 14px; font-family: Helvetica, sans-serif; line-height: 1.5em; }
 @media only screen and (min-width: 1140px) { /* line 135, style/sass/style.scss */
   #main-content .feature-sidebar.spark-region:before { top: -66px; } }
 /* line 153, style/sass/style.scss */
-#main-content .feature-sidebar.spark-region .red-circle { padding: 50px 35px; margin-top: 1.5em; }
+#main-content .feature-sidebar.spark-region .red-circle { padding: 40px 30px; margin-top: 2em; }
 /* line 157, style/sass/style.scss */
 #main-content .feature-sidebar.spark-region .phone-number { position: relative; margin-top: 2em; font-size: 20px; }
 /* line 162, style/sass/style.scss */
