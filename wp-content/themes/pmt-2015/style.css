@@ -2923,7 +2923,7 @@ p { font-size: 14px; font-family: Helvetica, sans-serif; line-height: 1.5em; }
   .floating-nav ul { margin-left: 0; }
   /* line 99, style/sass/gumby/functions/_semantic-grid.scss */
   .floating-nav ul:first-child { margin-left: 0; } }
-/* line 146, style/sass/brand/_resources.scss */
+/* line 147, style/sass/brand/_resources.scss */
 .floating-nav ul li { display: inline-block; padding: 5px; margin-right: .25em; }
 /* line 51, style/sass/style.scss */
 .floating-nav ul li a { color: white; font-family: "open-sans-condensed"; font-weight: bold; text-transform: uppercase; font-size: 20px; }
@@ -2961,36 +2961,36 @@ p { font-size: 14px; font-family: Helvetica, sans-serif; line-height: 1.5em; }
 /* line 70, style/sass/brand/_resources.scss */
 #main-content .large-red { font-weight: bold; color: #860038; }
 /* line 75, style/sass/brand/_resources.scss */
-#main-content .red-circle { position: relative; display: block; width: 170px; height: 170px; margin: auto; margin-top: 1em; background: #860038; color: white; text-align: center; padding: 50px 30px; border-radius: 50%; background-color: #5c062a; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF5C062A', endColorstr='#FF860038'); background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIzOSUiIHN0b3AtY29sb3I9IiM1YzA2MmEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NjAwMzgiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='); background-size: 100%; background-image: -moz-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: -webkit-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: radial-gradient(ellipse cover at center, #5c062a 39%, #860038 100%); }
+#main-content .red-circle { position: relative; display: block; width: 170px; height: 170px; margin: auto; margin-top: 1em; background: #860038; color: white; text-align: center; padding: 40px 30px; border-radius: 50%; background-color: #5c062a; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF5C062A', endColorstr='#FF860038'); background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIzOSUiIHN0b3AtY29sb3I9IiM1YzA2MmEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NjAwMzgiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='); background-size: 100%; background-image: -moz-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: -webkit-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: radial-gradient(ellipse cover at center, #5c062a 39%, #860038 100%); }
 /* line 88, style/sass/brand/_resources.scss */
-#main-content .red-circle .script-text { color: white; font-size: 40px; }
-/* line 92, style/sass/brand/_resources.scss */
+#main-content .red-circle .script-text { color: white; font-size: 45px; line-height: .8em; }
+/* line 93, style/sass/brand/_resources.scss */
 #main-content .red-circle a { color: white; }
-/* line 97, style/sass/brand/_resources.scss */
+/* line 98, style/sass/brand/_resources.scss */
 #main-content .float-right { float: right; display: inline-block; width: 40%; }
-/* line 104, style/sass/brand/_resources.scss */
+/* line 105, style/sass/brand/_resources.scss */
 #main-content .testimonial em { color: #860038; }
-/* line 107, style/sass/brand/_resources.scss */
+/* line 108, style/sass/brand/_resources.scss */
 #main-content .bio-left { clear: both; }
-/* line 111, style/sass/brand/_resources.scss */
+/* line 112, style/sass/brand/_resources.scss */
 #main-content .accordion { margin-bottom: 1em; }
-/* line 113, style/sass/brand/_resources.scss */
+/* line 114, style/sass/brand/_resources.scss */
 #main-content .accordion .panel-title { margin-bottom: 0; line-height: 1em; font-weight: normal; text-transform: none; }
-/* line 118, style/sass/brand/_resources.scss */
+/* line 119, style/sass/brand/_resources.scss */
 #main-content .accordion .panel-title a.active, #main-content .accordion .panel-title a:hover { color: #860038; }
-/* line 122, style/sass/brand/_resources.scss */
-#main-content .accordion .panel-content { margin-top: 1em; }
 /* line 123, style/sass/brand/_resources.scss */
+#main-content .accordion .panel-content { margin-top: 1em; }
+/* line 124, style/sass/brand/_resources.scss */
 #main-content .accordion br { display: none; }
-/* line 126, style/sass/brand/_resources.scss */
+/* line 127, style/sass/brand/_resources.scss */
 #main-content #accept_paypal_payment_form { color: #363636; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5em; }
-/* line 128, style/sass/brand/_resources.scss */
-#main-content #accept_paypal_payment_form br { display: none; }
 /* line 129, style/sass/brand/_resources.scss */
+#main-content #accept_paypal_payment_form br { display: none; }
+/* line 130, style/sass/brand/_resources.scss */
 #main-content #accept_paypal_payment_form input, #main-content #accept_paypal_payment_form select, #main-content #accept_paypal_payment_form strong { display: block; clear: both; margin-bottom: 5px; }
 /* line 6, style/sass/brand/_resources.scss */
 #main-content .bio-left img { float: left; margin-bottom: 21em; margin-right: 1em; border: 3px solid #860038; width: 100px; height: auto; }
-@media screen and (max-width: 767px) { /* line 139, style/sass/brand/_resources.scss */
+@media screen and (max-width: 767px) { /* line 140, style/sass/brand/_resources.scss */
   #main-content .feature-sidebar { width: 36.67%; } }
 /* line 67, style/sass/style.scss */
 #main-content h1, #main-content h2 { color: #860038; font-family: "bickham-script-pro"; font-size: 40px; font-size: 55px; text-align: center; }
@@ -3037,36 +3037,36 @@ p { font-size: 14px; font-family: Helvetica, sans-serif; line-height: 1.5em; }
 /* line 70, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .large-red { font-weight: bold; color: #860038; }
 /* line 75, style/sass/brand/_resources.scss */
-#main-content .feature-sidebar.spark-region .red-circle { position: relative; display: block; width: 170px; height: 170px; margin: auto; margin-top: 1em; background: #860038; color: white; text-align: center; padding: 50px 30px; border-radius: 50%; background-color: #5c062a; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF5C062A', endColorstr='#FF860038'); background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIzOSUiIHN0b3AtY29sb3I9IiM1YzA2MmEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NjAwMzgiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='); background-size: 100%; background-image: -moz-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: -webkit-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: radial-gradient(ellipse cover at center, #5c062a 39%, #860038 100%); }
+#main-content .feature-sidebar.spark-region .red-circle { position: relative; display: block; width: 170px; height: 170px; margin: auto; margin-top: 1em; background: #860038; color: white; text-align: center; padding: 40px 30px; border-radius: 50%; background-color: #5c062a; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF5C062A', endColorstr='#FF860038'); background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIzOSUiIHN0b3AtY29sb3I9IiM1YzA2MmEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NjAwMzgiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='); background-size: 100%; background-image: -moz-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: -webkit-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: radial-gradient(ellipse cover at center, #5c062a 39%, #860038 100%); }
 /* line 88, style/sass/brand/_resources.scss */
-#main-content .feature-sidebar.spark-region .red-circle .script-text { color: white; font-size: 40px; }
-/* line 92, style/sass/brand/_resources.scss */
+#main-content .feature-sidebar.spark-region .red-circle .script-text { color: white; font-size: 45px; line-height: .8em; }
+/* line 93, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .red-circle a { color: white; }
-/* line 97, style/sass/brand/_resources.scss */
+/* line 98, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .float-right { float: right; display: inline-block; width: 40%; }
-/* line 104, style/sass/brand/_resources.scss */
+/* line 105, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .testimonial em { color: #860038; }
-/* line 107, style/sass/brand/_resources.scss */
+/* line 108, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .bio-left { clear: both; }
-/* line 111, style/sass/brand/_resources.scss */
+/* line 112, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .accordion { margin-bottom: 1em; }
-/* line 113, style/sass/brand/_resources.scss */
+/* line 114, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .accordion .panel-title { margin-bottom: 0; line-height: 1em; font-weight: normal; text-transform: none; }
-/* line 118, style/sass/brand/_resources.scss */
+/* line 119, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .accordion .panel-title a.active, #main-content .feature-sidebar.spark-region .accordion .panel-title a:hover { color: #860038; }
-/* line 122, style/sass/brand/_resources.scss */
-#main-content .feature-sidebar.spark-region .accordion .panel-content { margin-top: 1em; }
 /* line 123, style/sass/brand/_resources.scss */
+#main-content .feature-sidebar.spark-region .accordion .panel-content { margin-top: 1em; }
+/* line 124, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .accordion br { display: none; }
-/* line 126, style/sass/brand/_resources.scss */
+/* line 127, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region #accept_paypal_payment_form { color: #363636; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5em; }
-/* line 128, style/sass/brand/_resources.scss */
-#main-content .feature-sidebar.spark-region #accept_paypal_payment_form br { display: none; }
 /* line 129, style/sass/brand/_resources.scss */
+#main-content .feature-sidebar.spark-region #accept_paypal_payment_form br { display: none; }
+/* line 130, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region #accept_paypal_payment_form input, #main-content .feature-sidebar.spark-region #accept_paypal_payment_form select, #main-content .feature-sidebar.spark-region #accept_paypal_payment_form strong { display: block; clear: both; margin-bottom: 5px; }
 /* line 6, style/sass/brand/_resources.scss */
 #main-content .feature-sidebar.spark-region .bio-left img { float: left; margin-bottom: 21em; margin-right: 1em; border: 3px solid #860038; width: 100px; height: auto; }
-@media screen and (max-width: 767px) { /* line 139, style/sass/brand/_resources.scss */
+@media screen and (max-width: 767px) { /* line 140, style/sass/brand/_resources.scss */
   #main-content .feature-sidebar.spark-region .feature-sidebar { width: 36.67%; } }
 /* line 128, style/sass/style.scss */
 #main-content .feature-sidebar.spark-region h3 { font-size: 20px; }
@@ -3111,7 +3111,7 @@ p { font-size: 14px; font-family: Helvetica, sans-serif; line-height: 1.5em; }
 
 /* line 225, style/sass/style.scss */
 .footer { max-width: 1140px; margin: auto; font-size: 12px; text-align: center; }
-/* line 146, style/sass/brand/_resources.scss */
+/* line 147, style/sass/brand/_resources.scss */
 .footer li { display: inline-block; padding: 5px; margin-right: .25em; }
 /* line 231, style/sass/style.scss */
 .footer a, .footer .copyright { color: #363636; font-size: 10px; text-transform: uppercase; }

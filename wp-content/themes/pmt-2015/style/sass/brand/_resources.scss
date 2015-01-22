@@ -82,12 +82,13 @@
 		background: $red;
 		color: white;
 		text-align: center;
-		padding: 50px 30px;
+		padding: 40px 30px;
 		border-radius: 50%;
 		@include sparkRadialGradient($darkRed, $red);
 		.script-text{
 			color: white;
-			font-size: 40px;
+			font-size: 45px;
+			line-height: .8em;
 		}
 		a{
 			color: white;

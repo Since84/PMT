@@ -37,34 +37,34 @@
 /* line 70, style/sass/brand/_resources.scss */
 .content .large-red { font-weight: bold; color: #860038; }
 /* line 75, style/sass/brand/_resources.scss */
-.content .red-circle { position: relative; display: block; width: 170px; height: 170px; margin: auto; margin-top: 1em; background: #860038; color: white; text-align: center; padding: 50px 30px; border-radius: 50%; background-color: #5c062a; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF5C062A', endColorstr='#FF860038'); background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIzOSUiIHN0b3AtY29sb3I9IiM1YzA2MmEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NjAwMzgiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='); background-size: 100%; background-image: -moz-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: -webkit-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: radial-gradient(ellipse cover at center, #5c062a 39%, #860038 100%); }
+.content .red-circle { position: relative; display: block; width: 170px; height: 170px; margin: auto; margin-top: 1em; background: #860038; color: white; text-align: center; padding: 40px 30px; border-radius: 50%; background-color: #5c062a; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF5C062A', endColorstr='#FF860038'); background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIzOSUiIHN0b3AtY29sb3I9IiM1YzA2MmEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NjAwMzgiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='); background-size: 100%; background-image: -moz-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: -webkit-radial-gradient(center, ellipse cover, #5c062a 39%, #860038 100%); background-image: radial-gradient(ellipse cover at center, #5c062a 39%, #860038 100%); }
 /* line 88, style/sass/brand/_resources.scss */
-.content .red-circle .script-text { color: white; font-size: 40px; }
-/* line 92, style/sass/brand/_resources.scss */
+.content .red-circle .script-text { color: white; font-size: 45px; line-height: .8em; }
+/* line 93, style/sass/brand/_resources.scss */
 .content .red-circle a { color: white; }
-/* line 97, style/sass/brand/_resources.scss */
+/* line 98, style/sass/brand/_resources.scss */
 .content .float-right { float: right; display: inline-block; width: 40%; }
-/* line 104, style/sass/brand/_resources.scss */
+/* line 105, style/sass/brand/_resources.scss */
 .content .testimonial em { color: #860038; }
-/* line 107, style/sass/brand/_resources.scss */
+/* line 108, style/sass/brand/_resources.scss */
 .content .bio-left { clear: both; }
-/* line 111, style/sass/brand/_resources.scss */
+/* line 112, style/sass/brand/_resources.scss */
 .content .accordion { margin-bottom: 1em; }
-/* line 113, style/sass/brand/_resources.scss */
+/* line 114, style/sass/brand/_resources.scss */
 .content .accordion .panel-title { margin-bottom: 0; line-height: 1em; font-weight: normal; text-transform: none; }
-/* line 118, style/sass/brand/_resources.scss */
+/* line 119, style/sass/brand/_resources.scss */
 .content .accordion .panel-title a.active, .content .accordion .panel-title a:hover { color: #860038; }
-/* line 122, style/sass/brand/_resources.scss */
-.content .accordion .panel-content { margin-top: 1em; }
 /* line 123, style/sass/brand/_resources.scss */
+.content .accordion .panel-content { margin-top: 1em; }
+/* line 124, style/sass/brand/_resources.scss */
 .content .accordion br { display: none; }
-/* line 126, style/sass/brand/_resources.scss */
+/* line 127, style/sass/brand/_resources.scss */
 .content #accept_paypal_payment_form { color: #363636; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5em; }
-/* line 128, style/sass/brand/_resources.scss */
-.content #accept_paypal_payment_form br { display: none; }
 /* line 129, style/sass/brand/_resources.scss */
+.content #accept_paypal_payment_form br { display: none; }
+/* line 130, style/sass/brand/_resources.scss */
 .content #accept_paypal_payment_form input, .content #accept_paypal_payment_form select, .content #accept_paypal_payment_form strong { display: block; clear: both; margin-bottom: 5px; }
 /* line 6, style/sass/brand/_resources.scss */
 .content .bio-left img { float: left; margin-bottom: 21em; margin-right: 1em; border: 3px solid #860038; width: 100px; height: auto; }
-@media screen and (max-width: 767px) { /* line 139, style/sass/brand/_resources.scss */
+@media screen and (max-width: 767px) { /* line 140, style/sass/brand/_resources.scss */
   .content .feature-sidebar { width: 36.67%; } }
