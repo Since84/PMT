@@ -109,6 +109,8 @@
 		.panel-title { 
 			margin-bottom: 0; 
 			line-height: 1em;
+			font-weight: normal;
+			text-transform: none;
 			a.active, a:hover{
 				color: $red;
 			}

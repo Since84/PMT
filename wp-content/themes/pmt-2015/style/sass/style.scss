@@ -210,11 +210,12 @@ p {
 					font-weight: normal;
 				}
 			}
-			tbody tr td { @include maintext; font-family: "Open Sans"; }
+			tbody tr td { @include maintext; }
 
 		}
 
 		b { font-weight: bold; }
+		.sub { @include maintext; }
 
 		@include sparkimage("main_background_image", 100%);	
 	}

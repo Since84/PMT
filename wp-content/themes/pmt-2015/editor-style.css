@@ -129,6 +129,8 @@
 .content .accordion .panel-title {
   margin-bottom: 0;
   line-height: 1em;
+  font-weight: normal;
+  text-transform: none;
 }
 .content .accordion .panel-title a.active, .content .accordion .panel-title a:hover {
   color: #860038;

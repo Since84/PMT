@@ -6470,6 +6470,8 @@ p {
 #main-content .accordion .panel-title {
   margin-bottom: 0;
   line-height: 1em;
+  font-weight: normal;
+  text-transform: none;
 }
 #main-content .accordion .panel-title a.active, #main-content .accordion .panel-title a:hover {
   color: #860038;
@@ -6678,6 +6680,8 @@ p {
 #main-content .feature-sidebar.spark-region .accordion .panel-title {
   margin-bottom: 0;
   line-height: 1em;
+  font-weight: normal;
+  text-transform: none;
 }
 #main-content .feature-sidebar.spark-region .accordion .panel-title a.active, #main-content .feature-sidebar.spark-region .accordion .panel-title a:hover {
   color: #860038;
@@ -6819,10 +6823,15 @@ p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5em;
-  font-family: "Open Sans";
 }
 #main-content .page-content b {
   font-weight: bold;
+}
+#main-content .page-content .sub {
+  color: #363636;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
 }
 
 .footer {
