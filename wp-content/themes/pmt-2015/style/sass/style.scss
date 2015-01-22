@@ -215,7 +215,7 @@ p {
 		}
 
 		b { font-weight: bold; }
-		.sub { @include maintext; font-weight: normal; }
+		.sub { @include maintext; font-weight: normal; font-size: 12px; text-transform: none; }
 
 		@include sparkimage("main_background_image", 100%);	
 	}

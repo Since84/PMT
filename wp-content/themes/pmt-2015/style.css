@@ -6833,6 +6833,8 @@ p {
   font-size: 14px;
   line-height: 1.5em;
   font-weight: normal;
+  font-size: 12px;
+  text-transform: none;
 }
 
 .footer {
