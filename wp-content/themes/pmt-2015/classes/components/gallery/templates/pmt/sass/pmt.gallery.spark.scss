@@ -46,11 +46,10 @@ $width: 100%;
 		// max-width: 1000px;
 		width: 100%;
 		max-width: $row-max-width;
-		height: $height;
 		overflow: hidden;
 		opacity: 0;
 		transition: opacity 1s;
-		margin-left: 0 !important;
+		margin-left: 0;
 
 	    &.active{ opacity: 1; }
 
