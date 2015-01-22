@@ -6358,7 +6358,7 @@ p {
   width: 1140px !Important;
   margin: auto;
   border: solid #860038;
-  border-width: 0px .65vw .65vw;
+  border-width: 0px 7px 7px;
   padding: 5px;
   position: relative;
 }
