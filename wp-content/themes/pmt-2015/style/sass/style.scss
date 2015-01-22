@@ -71,42 +71,42 @@ p {
 	.spark-content{
 		position: relative;
 
-		.page-content & {
-			padding: 40px 0px 40px 60px;
-			min-height: 750px; 
-
-			&:before, &:after{
-				content: "";
-				background: url('style/images/doodad_left.png') no-repeat 0% 0%;
-				display: block;
-				position: absolute;
-				width: 70px;
-				height: 70px;
-				background-size: 100% auto;
-			}
-			&:before {
-				left: 20px;
-				top: 20px;
-				-webkit-transform: rotate(-90deg);
-				-moz-transform: rotate(-90deg);
-				-ms-transform: rotate(-90deg);
-				-o-transform: rotate(-90deg);
-				transform: rotate(-90deg);
-			}
-			&:after {
-				left: 20px;
-				bottom: 20px; 
-				-webkit-transform: rotate(180deg);
-				-moz-transform: rotate(180deg);
-				-ms-transform: rotate(180deg);
-				-o-transform: rotate(180deg);
-				transform: rotate(180deg);
-			}
-		}
-
 		#wpgmza_map {
 			border: 5px solid white;
 			margin-left: 10px;
+		}
+	}
+
+	.page-content .spark-content {
+		padding: 40px 0px 40px 60px;
+		min-height: 750px; 
+
+		&:before, &:after{
+			content: "";
+			background: url('style/images/doodad_left.png') no-repeat 0% 0%;
+			display: block;
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			background-size: 100% auto;
+		}
+		&:before { 
+			left: 20px;
+			top: 20px;
+			-webkit-transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			-ms-transform: rotate(-90deg);
+			-o-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+		}
+		&:after {
+			left: 20px;
+			bottom: 20px; 
+			-webkit-transform: rotate(180deg);
+			-moz-transform: rotate(180deg);
+			-ms-transform: rotate(180deg);
+			-o-transform: rotate(180deg);
+			transform: rotate(180deg);
 		}
 	}
 

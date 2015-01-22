@@ -6515,11 +6515,15 @@ p {
 #main-content .spark-content {
   position: relative;
 }
-.page-content #main-content .spark-content {
+#main-content .spark-content #wpgmza_map {
+  border: 5px solid white;
+  margin-left: 10px;
+}
+#main-content .page-content .spark-content {
   padding: 40px 0px 40px 60px;
   min-height: 750px;
 }
-.page-content #main-content .spark-content:before, .page-content #main-content .spark-content:after {
+#main-content .page-content .spark-content:before, #main-content .page-content .spark-content:after {
   content: "";
   background: url("style/images/doodad_left.png") no-repeat 0% 0%;
   display: block;
@@ -6528,7 +6532,7 @@ p {
   height: 70px;
   background-size: 100% auto;
 }
-.page-content #main-content .spark-content:before {
+#main-content .page-content .spark-content:before {
   left: 20px;
   top: 20px;
   -webkit-transform: rotate(-90deg);
@@ -6537,7 +6541,7 @@ p {
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
-.page-content #main-content .spark-content:after {
+#main-content .page-content .spark-content:after {
   left: 20px;
   bottom: 20px;
   -webkit-transform: rotate(180deg);
@@ -6545,10 +6549,6 @@ p {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-}
-#main-content .spark-content #wpgmza_map {
-  border: 5px solid white;
-  margin-left: 10px;
 }
 #main-content .feature-sidebar.spark-region {
   width: 36.66667%;
