@@ -48,21 +48,16 @@ $width: 100%;
 		max-width: $row-max-width;
 		height: $height;
 		overflow: hidden;
-	    -webkit-transition: height .5s, padding .5s, left .5s ease-in-out;
-	    -moz-transition: height .5s, padding .5s, left .5s ease-in-out;
-	    -o-transition: height .5s, padding .5s, left .5s ease-in-out;
-	    transition: height .5s, padding .5s, left .5s ease-in-out;
-	    margin: auto;
+		opacity: 0;
+		transition: opacity 1s;
 
-	    &:not(.active){
-	    	height: $height - 8;
-	    }
+	    &.active{ opacity: 1; }
 
-	    &.active{ left: 0; }
-	    &.next{ left: 90vw; }
-	    &.two-ahead{ left: 180vw; }
-	    &.prev{ left: -90vw; }
-	    &.two-behind{ left: -180vw;}
+
+	    // &.next{ left: 90vw; }
+	    // &.two-ahead{ left: 180vw; }
+	    // &.prev{ left: -90vw; }
+	    // &.two-behind{ left: -180vw;}
 	}
 
 	.pager {

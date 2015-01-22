@@ -13,7 +13,6 @@
   top: 0;
   bottom: 0;
   margin: auto;
-  transition: left .5s, right .5s;
   display: block;
   text-align: center;
   margin-left: 0;

@@ -29,6 +29,7 @@
         // this.options.slideData = $.parseJSON( $(this.el).data('slides') );
 
         this.createUI();
+        this.autoplay();
   		},
 
       createUI: function(active) { 
@@ -82,12 +83,18 @@
   		}, 
 
   		goNext: function(){
-        var newActive = ( this.$('.active').next().length ? 
-                          this.$('.active').next() : 
+        var newActive = ( this.$('.active').next(this.options.slideClass).length ? 
+                          this.$('.active').next(this.options.slideClass) : 
                           this.$(this.options.slideClass).first() 
                         );
         this.createUI(newActive);
-  		}
+  		},
+      autoplay: function(){
+        var self=this;
+        setInterval(function(){
+          self.goNext();
+        }, 5000);
+      }
   });
 
 
