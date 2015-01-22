@@ -160,6 +160,8 @@
   margin-bottom: 21em;
   margin-right: 1em;
   border: 3px solid #860038;
+  width: 100px;
+  height: auto;
 }
 @media screen and (max-width: 767px) {
   .content .feature-sidebar {

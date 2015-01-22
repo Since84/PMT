@@ -6501,6 +6501,8 @@ p {
   margin-bottom: 21em;
   margin-right: 1em;
   border: 3px solid #860038;
+  width: 100px;
+  height: auto;
 }
 @media screen and (max-width: 767px) {
   #main-content .feature-sidebar {
@@ -6711,6 +6713,8 @@ p {
   margin-bottom: 21em;
   margin-right: 1em;
   border: 3px solid #860038;
+  width: 100px;
+  height: auto;
 }
 @media screen and (max-width: 767px) {
   #main-content .feature-sidebar.spark-region .feature-sidebar {

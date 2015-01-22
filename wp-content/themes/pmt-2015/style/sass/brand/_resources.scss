@@ -3,7 +3,7 @@
 // Mixins
 @mixin biopreview{
 	.bio-left{
-		img{ float: left; margin-bottom: 21em; margin-right: 1em; border: 3px solid $red; }
+		img{ float: left; margin-bottom: 21em; margin-right: 1em; border: 3px solid $red; width: 100px; height: auto; }
 	}
 }
 
