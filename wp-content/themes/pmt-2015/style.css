@@ -6534,7 +6534,9 @@ p {
 }
 #main-content .page-content .spark-content:before, #main-content .page-content .spark-content:after {
   content: "";
-  background: url("style/images/doodad_left.png") no-repeat 0% 0%;
+  background-image: url("style/images/doodad_right.png");
+  background-size: 70px auto;
+  background-repeat: no-repeat;
   display: block;
   position: absolute;
   width: 70px;
@@ -6544,20 +6546,18 @@ p {
 #main-content .page-content .spark-content:before {
   left: 20px;
   top: 20px;
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
 }
 #main-content .page-content .spark-content:after {
   left: 20px;
   bottom: 20px;
+  background-image: url("style/images/doodad_left.png");
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 #main-content .feature-sidebar.spark-region {
   width: 36.66667%;
@@ -6795,7 +6795,8 @@ p {
 }
 #main-content .page-content:before, #main-content .page-content:after {
   content: "";
-  background: url("style/images/doodad_left.png") no-repeat 0% 0%;
+  background-image: url("style/images/doodad_left.png");
+  background-repeat: no-repeat;
   display: block;
   position: absolute;
   width: 70px;
@@ -6807,13 +6808,14 @@ p {
   top: 20px;
 }
 #main-content .page-content:after {
+  background-image: url("style/images/doodad_right.png");
   right: 20px;
   bottom: 20px;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 #main-content .page-content .two-column-list > ul {
   -webkit-columns: 2;
